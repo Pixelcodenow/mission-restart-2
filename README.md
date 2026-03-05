@@ -1,16 +1,14 @@
-# React + Vite
+১. What is JSX, and why is it used?
+JSX হলো জাভাস্ক্রিপ্টের একটি বিশেষ সিনট্যাক্স যা দেখতে HTML-এর মতো। এটি ব্যবহার করা হয় যাতে জাভাস্ক্রিপ্ট ফাইলের ভেতরেই সহজে UI বা লেআউট কোড লেখা যায়।
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+২. What is the difference between State and Props?
+State হলো একটি কম্পোনেন্টের নিজস্ব ডাটা যা পরিবর্তন হতে পারে, আর Props হলো প্যারেন্ট থেকে চাইল্ড কম্পোনেন্টে পাঠানো ডাটা যা পরিবর্তন করা যায় না। State কম্পোনেন্টের ভেতর ম্যানেজ হয়, আর Props বাইরে থেকে আসে।
 
-Currently, two official plugins are available:
+৩. What is the useState hook, and how does it work?
+useState হলো রিয়্যাক্টের একটি ফাংশন যা ফাংশনাল কম্পোনেন্টে ডাটা বা স্টেট ধরে রাখতে সাহায্য করে। এটি কল করলে একটি ভেরিয়েবল এবং সেটি আপডেট করার জন্য একটি ফাংশন রিটার্ন করে।
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+৪. How can you share state between components in React?
+স্টেট শেয়ার করার জন্য সাধারণত 'Lifting State Up' পদ্ধতি ব্যবহার করা হয়, যেখানে স্টেটকে কমন প্যারেন্ট কম্পোনেন্টে রাখা হয়। এছাড়া বড় প্রজেক্টে Context API বা Redux-এর মাধ্যমেও স্টেট শেয়ার করা যায়।
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+৫. How is event handling done in React?
+রিয়্যাক্টে ইভেন্ট হ্যান্ডলিং অনেকটা HTML-এর মতোই, তবে এখানে camelCase (যেমন: onClick) ব্যবহার করতে হয়। ইভেন্টের ভ্যালু হিসেবে কোটেশনের বদলে সেকেন্ড ব্র্যাকেটের {} ভেতর একটি ফাংশন পাস করতে হয়।
