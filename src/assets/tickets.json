@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "User cannot login to the dashboard.",
+    "customer": "John Doe",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2024-03-20"
+  },
+  {
+    "id": 2,
+    "title": "Payment Failed",
+    "description": "Credit card payment returning error 500.",
+    "customer": "Jane Smith",
+    "priority": "Urgent",
+    "status": "Pending",
+    "createdAt": "2024-03-21"
+  },
+  {
+    "id": 3,
+    "title": "UI Bug in Navbar",
+    "description": "Navbar overlapping content on mobile.",
+    "customer": "Alice Brown",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2024-03-22"
+  },
+  {
+    "id": 4,
+    "title": "Database Slowdown",
+    "description": "Queries taking more than 2 seconds.",
+    "customer": "Bob Wilson",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2024-03-22"
+  },
+  {
+    "id": 5,
+    "title": "Email Not Sending",
+    "description": "Welcome emails are not being delivered.",
+    "customer": "Charlie Day",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2024-03-23"
+  },
+  {
+    "id": 6,
+    "title": "Profile Picture Upload",
+    "description": "Users cannot change their profile picture.",
+    "customer": "David Miller",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2024-03-23"
+  },
+  {
+    "id": 7,
+    "title": "API Timeout Error",
+    "description": "External API connections are timing out.",
+    "customer": "Eve Adams",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2024-03-24"
+  },
+  {
+    "id": 8,
+    "title": "Search Filter Not Working",
+    "description": "The date filter in the search is broken.",
+    "customer": "Frank Castle",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2024-03-24"
+  },
+  {
+    "id": 9,
+    "title": "Session Expiring Early",
+    "description": "User sessions expire within 5 minutes.",
+    "customer": "Grace Hopper",
+    "priority": "Urgent",
+    "status": "Pending",
+    "createdAt": "2024-03-25"
+  },
+  {
+    "id": 10,
+    "title": "Dark Mode Issue",
+    "description": "Text is not visible in dark mode toggle.",
+    "customer": "Hank Pym",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2024-03-25"
+  }
+]
